@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Área de notificações</title>
+    <link
+      rel="stylesheet"
+      href="/CSS/mobilestyle.css"
+      media="screen and (max-width: 768px)"
+    />
+    <link
+      rel="stylesheet"
+      href="/CSS/webstyle.css"
+      media="screen and (min-width: 769px)"
+    />
+    <script src="https://unpkg.com/mqtt/dist/mqtt.min.js"></script>
+  </head>
+  <body>
+    <!---------------------------------- TELA DE ACESSOS ------------------------>
+    <section class="teladeacessos" id="teladeacessos">
+      <header class="cabecalho">
+        <img class="botaovoltar" id="botaovoltar" src="/Imagens/Voltar.png"></img>
+        <h1 class="title">Sensores</h1>
+        <img
+          class="abremenu"
+          id="abremenuacesso"
+          src="/Imagens/Menu.png"
+          alt="menu"
+        />
+        <img
+          class="fechamenu invisivel"
+          id="fechamenuacesso"
+          src="/Imagens/fechar menu.png"
+          alt="menu"
+        />
+      </header>
+      <div class="divsensores">
+        <div class="sensor">
+          <p class="nomesensor">Banheiro</p>
+          <div class="divdashboards">
+            <div class="dashboard1"></div>
+            <div class="dashboard2"></div>
+            <div class="dashboard3"></div>
+          </div>
+        </div>
+        <div class="sensor">
+          <p class="nomesensor">Cozinha</p>
+          <div class="divdashboards">
+            <div class="dashboard2"></div>
+            <div class="dashboard1"></div>
+            <div class="dashboard3"></div>
+          </div>
+          
+        </div>
+        <div class="sensor">
+          <p class="nomesensor">Quintal</p>
+          <div class="divdashboards">
+            <div class="dashboard3"></div>
+            <div class="dashboard1"></div>
+            <div class="dashboard2"></div>
+          </div>
+          
+        </div>
+        <div class="sensor">
+          <p class="nomesensor">Registro</p>
+          <div class="divdashboards">
+            <div class="dashboard1"></div>
+            <div class="dashboard3"></div>
+            <div class="dashboard2"></div>
+          </div>
+         
+        </div>
+        <div class="sensor">
+          <p class="nomesensor">Caixa d'gua</p>
+          <div class="divdashboards">
+            <div class="dashboard2"></div>
+            <div class="dashboard3"></div>
+            <div class="dashboard1"></div>
+          </div>
+        </div>
+        <div class="sensor">
+          <p class="nomesensor">Área serviço</p>
+          <div class="divdashboards">
+            <div class="dashboard3"></div>
+            <div class="dashboard2"></div>
+            <div class="dashboard1"></div>
+          </div>
+         
+        </div>
+      </div>
+    </section>
+    <!------------------------------- scripts --------------------------->
+    <!-- <script src="/scripts/conexão.js"></script> -->
+    <script src="/scripts/funcoes.js"></script>
+    <!-- <script src="/scripts/criaacessos.js"></script> -->
+    <!-- <script src="/scripts/criaarmazens.js"></script> -->
+    <!-- <script src="/scripts/modelodeacessos.js"></script> -->
+    <!-- <script src="https://unpkg.com/mqtt/dist/mqtt.min.js"></script> -->
+    <!-- <script src="/scripts/alternarmodo.js"></script> -->
+  </body>
+</html>
