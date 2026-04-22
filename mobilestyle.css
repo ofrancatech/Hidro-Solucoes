@@ -58,7 +58,7 @@
   border-radius: 10px;
   margin-top: 20px;
   margin-left: 1px;
-  height: 230px;
+  height: 220px;
   width: 343px;
 }
 .divsobresobre {
@@ -240,7 +240,7 @@ i {
   border-radius: 10px;
   margin-top: 10px;
   padding: 10px;
-  width: 95,5%;
+  width: 95, 5%;
 }
 .sensor {
   display: flex;
