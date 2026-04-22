@@ -16,7 +16,7 @@ function validarLogin() {
   const senha = document.getElementById("senha").value;
 
   if (email === credenciais.email && senha === credenciais.senha) {
-    window.location.href = "/Mobile/sensores.html";
+    window.location.href = "sensores.html";
   } else {
     alert("Acesso negado");
   }
@@ -81,7 +81,7 @@ BTescolha2.addEventListener("click", mudarparalogin);
 // ========================================================
 const botaosobre = document.getElementById("psobre");
 function sobre() {
-  window.location.href = "/Mobile/sobre.html";
+  window.location.href = "sobre.html";
   console.log("SOBRE");
 }
 botaosobre.addEventListener("click", sobre);
