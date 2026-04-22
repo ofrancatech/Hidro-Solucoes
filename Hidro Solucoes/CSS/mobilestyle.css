@@ -1,0 +1,293 @@
+:root {
+  background-color: var(--azulescuro);
+  /*-------------- Variáveis de cores ----------*/
+  --carmim: #de2557;
+  --vermelho: #ff3131;
+  --verde: #31ff3f;
+  --laranja: #db6612;
+
+  --branco: #ffffff;
+  --cianoclaro: #f6f8f888;
+  --azure: #5599bf;
+  --azureapagado: #799aa9;
+  --azulescuro: #1c3a5a;
+  --azureclaro: #c1dbe5;
+}
+/* ----------------------- STYLE GERAL ------------------------------*/
+.cabecalho {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--azure);
+  border-radius: 10px;
+  align-items: center;
+  margin-top: 10px;
+  height: 50px;
+  width: 100%;
+}
+.title {
+  color: var(--azulescuro);
+}
+.divsobre {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--branco);
+  margin-top: 15px;
+  margin-left: -11px;
+  border-radius: 8px;
+  height: 30px;
+  width: 110px;
+}
+.psobre {
+  font-size: 18px;
+  color: var(--azulescuro);
+}
+.logomarcasobre {
+  position: absolute;
+  z-index: 2;
+  border-radius: 5px;
+  margin-top: 10px;
+  margin-left: 1px;
+  height: 100px;
+  width: 343px;
+}
+.familiahidro {
+  position: absolute;
+  z-index: 1;
+  border-radius: 10px;
+  margin-top: 20px;
+  margin-left: 1px;
+  height: 280px;
+  width: 343px;
+}
+.divsobresobre {
+  display: flex;
+  justify-content: center;
+}
+.divtexto {
+  margin-top: 310px;
+}
+h4,
+p,
+li,
+i {
+  color: var(--branco);
+}
+/* ---------------------- Tela de login --------------------------*/
+.divimagem {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+.logomarca {
+  border-radius: 5px;
+  margin-top: -5px;
+  width: 375px;
+  height: 100px;
+}
+.pergunta {
+  color: var(--branco);
+  font-size: 26px;
+  margin-top: -0px;
+}
+.divbtpaigeral {
+  display: flex;
+  justify-content: center;
+}
+.divbotaopai {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  background-color: var(--azure);
+  border-radius: 20px;
+  margin-top: -10x;
+  height: 50px;
+  width: 245px;
+}
+.divbotaocadastrar {
+  position: absolute;
+  right: 2px;
+}
+.divbotaologin {
+  position: absolute;
+  left: 2px;
+}
+.ativo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--azulescuro);
+  border-radius: 20px;
+  height: 45px;
+  width: 120px;
+}
+.inativo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background-color: var(--azulescuro); */
+  border-radius: 20px;
+  height: 45px;
+  width: 120px;
+}
+.txativo {
+  color: var(--branco);
+  font-size: 26px;
+}
+.txinativo {
+  color: var(--azureclaro);
+  font-size: 26px;
+}
+.login {
+  background-color: var(--azureapagado);
+  border-radius: 8px;
+  display: flex;
+  padding: 10px;
+  margin-top: 70px;
+  height: 180%;
+  width: 94%;
+}
+.cadastro {
+  background-color: var(--azureapagado);
+  border-radius: 8px;
+  display: flex;
+  padding: 10px;
+  margin-top: -7px;
+  height: 180%;
+  width: 94%;
+}
+.divcredenciaispai {
+  background-color: var(--azulescuro);
+  border-radius: 10px;
+  padding: 10px;
+  text-align: center;
+  height: 180%;
+  width: 94%;
+}
+.divcredenciaisfilha {
+  color: var(--azulescuro);
+  background-color: var(--azureapagado);
+  border-radius: 10px;
+  text-align: center;
+  align-items: center;
+  margin-top: 15px;
+  padding: 10px;
+  width: 94%;
+}
+.titleacao {
+  margin-top: -2px;
+}
+.divformulario {
+  margin-top: -25px;
+}
+
+.email,
+.senha,
+.whatsapp,
+.cpf,
+.nome {
+  border: 2px solid var(--azulescuro);
+  border-radius: 10px;
+  margin-top: 15px;
+  height: 40px;
+  width: 96%;
+  font-size: 18px;
+}
+.botaoentrar,
+.botaocadastrook {
+  background-color: var(--azure);
+  border: 2px solid var(--azulescuro);
+  border-radius: 10px;
+  font-size: 18px;
+  margin-top: 15px;
+  height: 50px;
+  width: 98%;
+}
+.abremenu {
+  position: absolute;
+  right: 20px;
+  height: 30px;
+  width: 30px;
+}
+.fechamenu {
+  height: 30px;
+  width: 30px;
+  position: absolute;
+  right: 20px;
+}
+.invisivel {
+  display: none;
+}
+.divrodapesobre {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+.botaovoltar {
+  z-index: 2;
+  position: absolute;
+  left: 15px;
+  height: 35px;
+}
+.divsensores {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 10px;
+  background-color: var(--azure);
+  border-radius: 10px;
+  margin-top: 10px;
+  padding: 10px;
+  width: 95,5%;
+}
+.sensor {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 10px;
+  background-color: var(--azureapagado);
+  border: solid 2px var(--azulescuro);
+  text-align: center;
+  padding: 10px;
+  border-radius: 10px;
+  width: 130px;
+  height: 138px;
+}
+.nomesensor {
+  font-size: 18px;
+  margin-top: -5px;
+}
+.divdashboards {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin-top: 20px;
+}
+.dashboard1 {
+  background-color: var(--verde);
+  margin-top: 50px;
+  height: 30px;
+  width: 35px;
+}
+.dashboard2 {
+  background-color: var(--laranja);
+  margin-top: 25px;
+  height: 55px;
+  width: 35px;
+}
+.dashboard3 {
+  background-color: var(--vermelho);
+  margin-top: -21px;
+  height: 101px;
+  width: 35px;
+}
+.visivel {
+  display: inline;
+}
+
+.oculto {
+  display: none;
+}
