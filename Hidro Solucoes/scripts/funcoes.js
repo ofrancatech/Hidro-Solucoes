@@ -4,6 +4,6 @@
 const botaovoltar = document.getElementById("botaovoltar");
 
 function Voltar() {
-  window.location.href = "/Mobile/teladelogin.html";
+  window.location.href = "/Mobile/index.html";
 }
 botaovoltar.addEventListener("click", Voltar);
