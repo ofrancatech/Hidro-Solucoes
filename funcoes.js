@@ -1,9 +1,9 @@
 // ========================================================
-// FUNÇÃO VOLTAR
+// FUNÇÃO CONHECER
 // ========================================================
-const botaovoltar = document.getElementById("botaovoltar");
+const botaoconhecer = document.getElementById("txpprojeto");
 
 function voltar() {
-  window.location.href = "/index.html";
+  window.location.href = "monitoravaza.html";
 }
-botaovoltar.addEventListener("click", voltar);
+botaoconhecer.addEventListener("click", voltar);
