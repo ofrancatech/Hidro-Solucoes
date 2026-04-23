@@ -317,6 +317,47 @@ i {
   height: 101px;
   width: 35px;
 }
+.tmobile {
+  font-size: 22px;
+}
+.imagensdosistema {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+  background-color: var(--azure);
+  margin-top: 10px;
+  padding: 10px;
+  border-radius: 10px;
+  width: 94%;
+}
+.imagem {
+  border-radius: 5px;
+  margin-top: 10px;
+  height: 185px;
+}
+.dicontratar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--branco);
+  border-radius: 2px;
+  padding: 5px;
+  margin-top: 10px;
+  height: 50px;
+  width: 97%;
+}
+.pcontratar {
+  color: var(--azulescuro);
+}
+.whatsapp {
+  margin-top: 0px;
+  margin-left: 20px;
+  cursor: pointer;
+  height: 50px;
+  width: 50px;
+}
 .visivel {
   display: inline;
 }

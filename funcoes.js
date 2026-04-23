@@ -3,7 +3,7 @@
 // ========================================================
 const botaoconhecer = document.getElementById("txpprojeto");
 
-function voltar() {
+function conhecer() {
   window.location.href = "monitoravaza.html";
 }
-botaoconhecer.addEventListener("click", voltar);
+botaoconhecer.addEventListener("click", conhecer);
