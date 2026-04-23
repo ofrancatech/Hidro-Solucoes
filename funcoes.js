@@ -3,7 +3,7 @@
 // ========================================================
 const botaovoltar = document.getElementById("botaovoltar");
 
-function Voltar() {
+function voltar() {
   window.location.href = "/index.html";
 }
-botaovoltar.addEventListener("click", Voltar);
+botaovoltar.addEventListener("click", voltar);
