@@ -62,6 +62,38 @@
   height: 680px;
   width: auto;
 }
+.divprojetos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--branco);
+  border-radius: 2px;
+  padding: 5px;
+  margin-top: 10px;
+  margin-left: -35px;
+  height: 50px;
+  width: 620px;
+}
+.pprojeto {
+  color: var(--azulescuro);
+}
+.divconhecer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--azulescuro);
+  cursor: pointer;
+  margin-left: 25px;
+  border-radius: 8px;
+  height: 40px;
+  width: 110px;
+}
+.divrodape {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
 .divsobresobre {
   display: flex;
   justify-content: center;
@@ -163,7 +195,7 @@ i {
   padding: 10px;
   margin-top: -7px;
   height: 180%;
-  width: 98,5%;
+  width: 98, 5%;
 }
 .divcredenciaispai {
   background-color: var(--azulescuro);
@@ -249,7 +281,7 @@ i {
   border-radius: 10px;
   margin-top: 10px;
   padding: 10px;
-  width: 98,5%;
+  width: 98, 5%;
 }
 .sensor {
   display: flex;
